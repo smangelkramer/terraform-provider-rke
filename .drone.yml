@@ -1,7 +1,7 @@
 ---
 kind: pipeline
 name: default
-
+privileged: true
 steps:
 - name: build
   image: rancher/dapper:1.11.2
